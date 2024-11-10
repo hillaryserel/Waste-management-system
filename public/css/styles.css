@@ -46,16 +46,61 @@ body {
   }
   
   footer {
+    background-color: #f9fafb; /* Light gray background for subtle contrast */
+    color: #4b5563; /* Dark gray for text */
+    padding: 1rem 0;
+    border-top: 1px solid #e5e7eb; /* Border to separate footer from main content */
+  }
+  
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     text-align: center;
-    margin-top: 50px;
-    color: #777;
   }
   
-  footer a {
-    color: #007bff;
+  footer .container a {
+    color: #1f2937; /* Darker color for branding */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
   }
   
-  footer a:hover {
-    text-decoration: underline;
+  footer .container a:hover {
+    color: #111827; /* Slightly darker on hover */
   }
+  
+  footer img {
+    height: 2rem; /* Height for logo */
+    margin-right: 0.5rem; /* Spacing next to logo */
+  }
+  
+  footer .text-sm {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #6b7280; /* Muted gray */
+  }
+  
+  footer .text-sm a {
+    color: #3b82f6; /* Link color */
+  }
+  
+  footer .text-sm a:hover {
+    color: #2563eb; /* Darker blue on hover */
+  }
+  
+  footer .inline-flex a {
+    color: #9ca3af; /* Light gray for icons */
+    transition: color 0.3s ease;
+  }
+  
+  footer .inline-flex a:hover {
+    color: #2563eb; /* Blue on hover */
+  }
+  
+  footer .inline-flex a:not(:last-child) {
+    margin-right: 1rem;
+  }
+  
   
