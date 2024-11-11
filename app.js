@@ -18,7 +18,7 @@ app.use(cookieParser());
 
 app.use("/", indexRoutes);
 
-app.get("*", (req, res) => {
+app.get("contact", (req, res) => {
     res.render("404.ejs");
 })
 
