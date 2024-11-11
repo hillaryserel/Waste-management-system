@@ -18,8 +18,8 @@ app.use(cookieParser());
 
 app.use("/", indexRoutes);
 
-app.get("contact", (req, res) => {
-    res.render("404.ejs");
+app.get("/contact", (req, res) => {
+    res.render("contact/contactForm");
 })
 
 
